@@ -1,0 +1,122 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
+  color: #ffffff;
+}
+.navBar {
+  width: 100%;
+  background-color: #2c0e3a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  color: #ffffff;
+}
+.navBarChild1 {
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+}
+.timerIconContainer {
+  height: 50%;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timerIcon {
+  height: 100%;
+}
+.bottomDiv {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navBarChild2 {
+  display: flex;
+  flex-direction: row;
+}
+.navBarChild2inner2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navBarChild2inner1 {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.firstDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.secondDiv {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  background-color: red;
+  justify-content: space-around;
+}
+.thirdDiv {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  flex-wrap: wrap;
+  background-color: red;
+}
+.upperImg {
+  width: 100%;
+}
+.fourthDiv {
+  width: 60%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  min-height: 300px;
+  flex-grow: 1;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.trophyContainer {
+  width: 100px;
+}
+.trophy {
+  width: 100%;
+}
+.reLoadContainer {
+  width: 20px;
+}
+.reload {
+  width: 100%;
+}
+.playAgainBtn {
+  background-color: #cf60c8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.temp {
+  margin-right: 10px;
+}

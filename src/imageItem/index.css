@@ -1,0 +1,12 @@
+.outerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+.innerImage {
+  width: 100%;
+}
